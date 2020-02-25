@@ -1,0 +1,20 @@
+{
+	"name" : "zendframework/skeleton-application",
+	"description" : "Skeleton Application for ZF2",
+	"license" : "BSD-3-Clause",
+	"keywords" : [
+		"framework",
+		"zf2"
+	],
+	"homepage" : "http://framework.zend.com/",
+	"require" : {
+		"php" : ">=5.5",
+		"zendframework/zendframework" : "~2.5",
+		"zendframework/zendsearch" : "2.0.0rc6",
+		"doctrine/doctrine-orm-module" : "1.0.0",
+		"ramsey/uuid" : "~3.9",
+		"symfony/workflow" : "3.4.37",
+		"symfony/event-dispatcher" : "3.4.37",
+		"php-amqplib/php-amqplib" : "2.11.1"
+	}
+}
